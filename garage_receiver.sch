@@ -695,17 +695,6 @@ F 3 "~" H 5500 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5D7939DA
-P 5500 5350
-F 0 "H1" H 5600 5396 50  0000 L CNN
-F 1 "MountingHole" H 5600 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 5259 50  0001 L CNN
-F 3 "~" H 5500 5350 50  0001 C CNN
-	1    5500 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5D0FABAA
 P 6150 2500
@@ -766,14 +755,25 @@ Wire Wire Line
 	4350 2650 3400 2650
 Connection ~ 3400 2650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5D0D959C
 P 8100 3000
-F 0 "#PWR?" H 8100 2750 50  0001 C CNN
+F 0 "#PWR0102" H 8100 2750 50  0001 C CNN
 F 1 "GND" H 8105 2827 50  0000 C CNN
 F 2 "" H 8100 3000 50  0001 C CNN
 F 3 "" H 8100 3000 50  0001 C CNN
 	1    8100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D7939DA
+P 5500 5350
+F 0 "H1" H 5600 5396 50  0000 L CNN
+F 1 "MountingHole" H 5600 5305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 5259 50  0001 L CNN
+F 3 "~" H 5500 5350 50  0001 C CNN
+	1    5500 5350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
