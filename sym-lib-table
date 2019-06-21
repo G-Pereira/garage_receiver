@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name garage_receiver)(type Legacy)(uri ${KIPRJMOD}/garage_receiver.lib)(options "")(descr ""))
+)

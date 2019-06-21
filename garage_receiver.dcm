@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HT12D
+D 2¹² Series of Decoder
+K Series Decoder
+F https://www.farnell.com/datasheets/1525377.pdf
+$ENDCMP
+#
+#End Doc Library
