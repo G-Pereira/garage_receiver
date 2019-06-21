@@ -7,7 +7,7 @@ A home made receiver to replace a broken one
 
 ## How it works
 
-This board works with 24V AC power supply and reponds to an RF signal which makes the input C1 and C2 connect to each other and that makes the door open or close. The RF receiver is not included since they are readily
+This board works with 24V AC power supply and reponds to an RF signal which makes the input CT+ and CT- connect to each other and that makes the door open or close. The RF receiver is not included since they are readily available and some of you would need 443MHz and others 315MHz to interface with existing hardware.
 You can use your existing remote by configuring the code with the switches.
 
 ## New features
