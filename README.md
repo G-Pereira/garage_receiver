@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/1891).
 # Garage Receiver
 A home made receiver to replace a broken one
 
-![Board](board.png)
+![Board](garage_receiver.png)
 
 ## How it works
 

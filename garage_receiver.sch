@@ -364,7 +364,7 @@ $EndComp
 Text Notes 4900 2050 0    118  ~ 0
 Rectifier
 Wire Wire Line
-	5800 3100 5800 3450
+	5800 3100 5800 3350
 $Comp
 L power:GND #PWR08
 U 1 1 5D1FA115
@@ -659,26 +659,17 @@ F 3 "" H 8600 4850 50  0001 C CNN
 $EndComp
 Text Notes 5050 5150 0    118  ~ 0
 Mounting Holes
+Text Notes 4550 1750 0    50   ~ 0
+.tran 1m 200m
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5D7939DA
-P 5500 5350
-F 0 "H1" H 5600 5396 50  0000 L CNN
-F 1 "MountingHole" H 5600 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 5259 50  0001 L CNN
-F 3 "~" H 5500 5350 50  0001 C CNN
-	1    5500 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5D793FF2
-P 5500 5550
-F 0 "H2" H 5600 5596 50  0000 L CNN
-F 1 "MountingHole" H 5600 5505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 5550 50  0001 C CNN
-F 3 "~" H 5500 5550 50  0001 C CNN
-	1    5500 5550
+L Mechanical:MountingHole H4
+U 1 1 5D79473A
+P 5500 5950
+F 0 "H4" H 5600 5996 50  0000 L CNN
+F 1 "MountingHole" H 5600 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 5950 50  0001 C CNN
+F 3 "~" H 5500 5950 50  0001 C CNN
+	1    5500 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -693,14 +684,85 @@ F 3 "~" H 5500 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
-U 1 1 5D79473A
-P 5500 5950
-F 0 "H4" H 5600 5996 50  0000 L CNN
-F 1 "MountingHole" H 5600 5905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 5950 50  0001 C CNN
-F 3 "~" H 5500 5950 50  0001 C CNN
-	1    5500 5950
+L Mechanical:MountingHole H2
+U 1 1 5D793FF2
+P 5500 5550
+F 0 "H2" H 5600 5596 50  0000 L CNN
+F 1 "MountingHole" H 5600 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 5550 50  0001 C CNN
+F 3 "~" H 5500 5550 50  0001 C CNN
+	1    5500 5550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D7939DA
+P 5500 5350
+F 0 "H1" H 5600 5396 50  0000 L CNN
+F 1 "MountingHole" H 5600 5305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 5259 50  0001 L CNN
+F 3 "~" H 5500 5350 50  0001 C CNN
+	1    5500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D0FABAA
+P 6150 2500
+F 0 "#FLG0102" H 6150 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 2673 50  0000 C CNN
+F 2 "" H 6150 2500 50  0001 C CNN
+F 3 "~" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2500 6150 2700
+Wire Wire Line
+	6150 2700 5800 2700
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5D101C72
+P 8950 4150
+F 0 "#FLG0103" H 8950 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 8950 4323 50  0000 C CNN
+F 2 "" H 8950 4150 50  0001 C CNN
+F 3 "~" H 8950 4150 50  0001 C CNN
+	1    8950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4150 8950 4250
+Wire Wire Line
+	8950 4250 8600 4250
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5D106776
+P 6150 3350
+F 0 "#FLG0104" H 6150 3425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 3523 50  0000 C CNN
+F 2 "" H 6150 3350 50  0001 C CNN
+F 3 "~" H 6150 3350 50  0001 C CNN
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3350 5800 3350
+Connection ~ 5800 3350
+Wire Wire Line
+	5800 3350 5800 3450
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5D10A97E
+P 4350 2650
+F 0 "#FLG0105" H 4350 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 4350 2823 50  0000 C CNN
+F 2 "" H 4350 2650 50  0001 C CNN
+F 3 "~" H 4350 2650 50  0001 C CNN
+	1    4350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2650 3400 2650
+Connection ~ 3400 2650
 $EndSCHEMATC
