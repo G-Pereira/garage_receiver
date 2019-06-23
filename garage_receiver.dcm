@@ -6,4 +6,10 @@ K Series Decoder
 F https://www.farnell.com/datasheets/1525377.pdf
 $ENDCMP
 #
+$CMP LTC3255
+D Wide VIN Range Fault Protected 50mA Step-Down Charge Pump
+K DC Converter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3245fa.pdf
+$ENDCMP
+#
 #End Doc Library

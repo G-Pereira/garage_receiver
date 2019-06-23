@@ -1,4 +1,4 @@
-update=Fri 21 Jun 2019 05:55:41 PM WEST
+update=Sun 23 Jun 2019 12:47:43 PM WEST
 version=1
 last_client=kicad
 [general]
@@ -237,7 +237,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=12V
+Name=36V
 Clearance=0.2
 TrackWidth=0.6
 ViaDiameter=0.8
