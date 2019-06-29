@@ -1,6 +1,6 @@
 Reference, Quantity, Value, Footprint, Datasheet
 C1 ,1,"470u","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~"
-C3 C2 ,2,"1u","Capacitor_SMD:C_0805_2012Metric","~"
+C2 ,1,"1u","Capacitor_SMD:C_0805_2012Metric","~"
 C4 ,1,"10u","Capacitor_SMD:C_0805_2012Metric","~"
 C5 ,1,"100n","Capacitor_SMD:C_0805_2012Metric","~"
 D1 D3 D4 D2 ,4,"1N4007","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","http://www.vishay.com/docs/88503/1n4001.pdf"

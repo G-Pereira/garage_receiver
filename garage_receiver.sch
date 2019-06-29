@@ -592,30 +592,12 @@ $EndComp
 Wire Wire Line
 	8650 4100 8650 4250
 Connection ~ 8650 4250
-$Comp
-L Device:C C3
-U 1 1 5D18053F
-P 6450 4500
-F 0 "C3" H 6565 4546 50  0000 L CNN
-F 1 "1u" H 6565 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 4350 50  0001 C CNN
-F 3 "~" H 6450 4500 50  0001 C CNN
-	1    6450 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 4350 6450 3850
-Wire Wire Line
-	6450 3850 6700 3850
 Wire Wire Line
 	6700 4350 6700 3850
-Connection ~ 6700 3850
 Wire Wire Line
 	7650 3700 7650 3850
 Wire Wire Line
 	6700 4350 7150 4350
-Wire Wire Line
-	6450 4950 6850 4950
 Wire Wire Line
 	6700 3850 7650 3850
 Connection ~ 7650 3850
@@ -649,8 +631,6 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3245fa.
 	1    7650 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 4650 6450 4950
 $Comp
 L Device:C C5
 U 1 1 5D1C7610
@@ -715,7 +695,6 @@ Wire Wire Line
 	7150 4450 6850 4450
 Wire Wire Line
 	6850 4450 6850 4950
-Connection ~ 6850 4950
 Wire Wire Line
 	6850 4950 7000 4950
 Wire Wire Line
